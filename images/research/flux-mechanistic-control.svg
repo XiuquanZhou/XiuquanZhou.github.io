@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Flux chemistry and mechanistic control</title>
+<desc id="desc">A simplified schematic showing flux variables controlling inorganic fragments and final crystal products.</desc>
+<defs>
+<style>
+.bg{fill:#f7f8f8}.panel{fill:#ffffff;stroke:#d9dee3;stroke-width:3}.gold{fill:#d7bf55}.teal{fill:#00a987}.red{fill:#b56a67}.dark{fill:#2b3035}.muted{fill:#6b7280}.line{stroke:#2b3035;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}.thin{stroke:#7c8792;stroke-width:3;fill:none}.label{font-family:Arial,Helvetica,sans-serif;font-size:31px;font-weight:700;fill:#2b3035}.small{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#46505a}.tiny{font-family:Arial,Helvetica,sans-serif;font-size:21px;fill:#5c6670}
+</style>
+<marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto">
+<path d="M1,1 L13,7 L1,13 Z" fill="#2b3035"/>
+</marker>
+</defs>
+<rect class="bg" width="1200" height="675" rx="24"/>
+<text x="600" y="64" text-anchor="middle" class="label">Flux chemistry makes synthesis tunable</text>
+<text x="600" y="101" text-anchor="middle" class="small">Temperature, basicity, and composition change the species present before crystallization.</text>
+
+<rect x="62" y="158" width="300" height="380" rx="18" class="panel"/>
+<text x="212" y="205" text-anchor="middle" class="label">Flux variables</text>
+
+<g transform="translate(106 254)">
+<text x="0" y="8" class="small">temperature</text>
+<line x1="0" y1="38" x2="210" y2="38" stroke="#c4ccd3" stroke-width="10" stroke-linecap="round"/>
+<line x1="0" y1="38" x2="142" y2="38" stroke="#d7bf55" stroke-width="10" stroke-linecap="round"/>
+<circle cx="142" cy="38" r="19" class="gold"/>
+</g>
+<g transform="translate(106 344)">
+<text x="0" y="8" class="small">basicity</text>
+<line x1="0" y1="38" x2="210" y2="38" stroke="#c4ccd3" stroke-width="10" stroke-linecap="round"/>
+<line x1="0" y1="38" x2="166" y2="38" stroke="#00a987" stroke-width="10" stroke-linecap="round"/>
+<circle cx="166" cy="38" r="19" class="teal"/>
+</g>
+<g transform="translate(106 434)">
+<text x="0" y="8" class="small">flux composition</text>
+<line x1="0" y1="38" x2="210" y2="38" stroke="#c4ccd3" stroke-width="10" stroke-linecap="round"/>
+<line x1="0" y1="38" x2="116" y2="38" stroke="#b56a67" stroke-width="10" stroke-linecap="round"/>
+<circle cx="116" cy="38" r="19" class="red"/>
+</g>
+
+<line x1="386" y1="345" x2="492" y2="345" class="line" marker-end="url(#arrow)"/>
+<text x="439" y="313" text-anchor="middle" class="tiny">control</text>
+
+<rect x="515" y="158" width="295" height="380" rx="18" class="panel"/>
+<text x="662" y="205" text-anchor="middle" class="label">Speciation</text>
+<text x="662" y="235" text-anchor="middle" class="tiny">fragments in solution</text>
+
+<g transform="translate(580 275)">
+<circle cx="10" cy="36" r="16" class="red"/><circle cx="58" cy="20" r="15" class="dark"/><circle cx="92" cy="58" r="15" class="gold"/>
+<path d="M10 36 L58 20 L92 58" class="thin"/>
+<circle cx="45" cy="98" r="13" class="teal"/><circle cx="92" cy="112" r="13" class="red"/><path d="M45 98 L92 112" class="thin"/>
+<polygon points="142,118 178,56 214,118" fill="#dde4e8" stroke="#6b7280" stroke-width="3"/>
+<circle cx="142" cy="118" r="11" class="red"/><circle cx="178" cy="56" r="11" class="red"/><circle cx="214" cy="118" r="11" class="red"/><circle cx="178" cy="101" r="11" class="dark"/>
+</g>
+<text x="662" y="484" text-anchor="middle" class="small">building-block population</text>
+
+<line x1="834" y1="345" x2="940" y2="345" class="line" marker-end="url(#arrow)"/>
+<text x="887" y="313" text-anchor="middle" class="tiny">crystallize</text>
+
+<rect x="960" y="158" width="180" height="380" rx="18" class="panel"/>
+<text x="1050" y="205" text-anchor="middle" class="label">Phase</text>
+<text x="1050" y="240" text-anchor="middle" class="label">selection</text>
+<g transform="translate(991 286)">
+<rect x="0" y="0" width="118" height="118" rx="10" fill="#eef2f4" stroke="#d9dee3" stroke-width="3"/>
+<g stroke="#5c6670" stroke-width="4">
+<line x1="24" y1="24" x2="58" y2="58"/><line x1="58" y1="58" x2="94" y2="24"/>
+<line x1="24" y1="94" x2="58" y2="58"/><line x1="58" y1="58" x2="94" y2="94"/>
+</g>
+<circle cx="24" cy="24" r="12" class="red"/><circle cx="94" cy="24" r="12" class="dark"/><circle cx="58" cy="58" r="12" class="gold"/><circle cx="24" cy="94" r="12" class="teal"/><circle cx="94" cy="94" r="12" class="red"/>
+</g>
+<text x="1050" y="484" text-anchor="middle" class="small">targeted product</text>
+
+<rect x="274" y="582" width="652" height="44" rx="22" fill="#2b3035"/>
+<text x="600" y="612" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#ffffff">mechanistic control turns reaction media into design tools</text>
+</svg>

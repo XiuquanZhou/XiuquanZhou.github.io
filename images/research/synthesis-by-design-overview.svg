@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Synthesis-by-design overview</title>
+<desc id="desc">A simplified pathway from precursors through solvated fragments and building blocks to an extended solid.</desc>
+<defs>
+<style>
+.bg{fill:#f7f8f8}.panel{fill:#ffffff;stroke:#d9dee3;stroke-width:3}.accent{fill:#d7bf55}.teal{fill:#00a987}.red{fill:#b56a67}.dark{fill:#2b3035}.mid{fill:#5c6670}.line{stroke:#2b3035;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}.soft{stroke:#9aa4ad;stroke-width:3;fill:none}.label{font-family:Arial,Helvetica,sans-serif;font-size:31px;font-weight:700;fill:#2b3035}.small{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#46505a}.tiny{font-family:Arial,Helvetica,sans-serif;font-size:21px;fill:#5c6670}
+</style>
+<marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto">
+<path d="M1,1 L13,7 L1,13 Z" fill="#2b3035"/>
+</marker>
+</defs>
+<rect class="bg" width="1200" height="675" rx="24"/>
+<text x="600" y="64" text-anchor="middle" class="label">Synthesis as a design variable</text>
+<text x="600" y="101" text-anchor="middle" class="small">Reaction pathways determine which extended solids can be reached.</text>
+
+<rect x="62" y="180" width="210" height="265" rx="18" class="panel"/>
+<text x="167" y="224" text-anchor="middle" class="label">Precursors</text>
+<circle cx="126" cy="298" r="20" class="dark"/>
+<circle cx="176" cy="282" r="17" class="red"/>
+<circle cx="205" cy="332" r="18" class="accent"/>
+<circle cx="139" cy="365" r="16" class="teal"/>
+<path d="M126 298 L176 282 L205 332 L139 365 L126 298" class="soft"/>
+<text x="167" y="407" text-anchor="middle" class="tiny">starting composition</text>
+
+<line x1="292" y1="312" x2="382" y2="312" class="line" marker-end="url(#arrow)"/>
+
+<rect x="402" y="180" width="220" height="265" rx="18" class="panel"/>
+<text x="512" y="224" text-anchor="middle" class="label">Speciation</text>
+<circle cx="475" cy="312" r="18" class="red"/>
+<circle cx="522" cy="292" r="18" class="dark"/>
+<circle cx="552" cy="336" r="18" class="teal"/>
+<path d="M475 312 L522 292 L552 336" class="soft"/>
+<circle cx="480" cy="372" r="14" class="accent"/>
+<circle cx="530" cy="386" r="14" class="red"/>
+<path d="M480 372 L530 386" class="soft"/>
+<text x="512" y="407" text-anchor="middle" class="tiny">solvated fragments</text>
+
+<line x1="642" y1="312" x2="732" y2="312" class="line" marker-end="url(#arrow)"/>
+
+<rect x="752" y="180" width="210" height="265" rx="18" class="panel"/>
+<text x="857" y="224" text-anchor="middle" class="label">Building</text>
+<text x="857" y="259" text-anchor="middle" class="label">blocks</text>
+<polygon points="810,338 846,276 882,338" fill="#ced6dc" stroke="#5c6670" stroke-width="3"/>
+<circle cx="810" cy="338" r="12" class="red"/>
+<circle cx="846" cy="276" r="12" class="red"/>
+<circle cx="882" cy="338" r="12" class="red"/>
+<circle cx="846" cy="322" r="12" class="dark"/>
+<text x="857" y="407" text-anchor="middle" class="tiny">modular units</text>
+
+<line x1="982" y1="312" x2="1072" y2="312" class="line" marker-end="url(#arrow)"/>
+
+<g transform="translate(1038 210)">
+<text x="80" y="14" text-anchor="middle" class="label">Solid</text>
+<g transform="translate(6 55)">
+<rect x="0" y="0" width="145" height="145" rx="12" fill="#eef2f4" stroke="#d9dee3" stroke-width="3"/>
+<g stroke="#5c6670" stroke-width="4">
+<line x1="24" y1="24" x2="68" y2="24"/><line x1="68" y1="24" x2="112" y2="24"/>
+<line x1="24" y1="68" x2="68" y2="68"/><line x1="68" y1="68" x2="112" y2="68"/>
+<line x1="24" y1="112" x2="68" y2="112"/><line x1="68" y1="112" x2="112" y2="112"/>
+<line x1="24" y1="24" x2="24" y2="68"/><line x1="68" y1="24" x2="68" y2="68"/><line x1="112" y1="24" x2="112" y2="68"/>
+<line x1="24" y1="68" x2="24" y2="112"/><line x1="68" y1="68" x2="68" y2="112"/><line x1="112" y1="68" x2="112" y2="112"/>
+</g>
+<g>
+<circle cx="24" cy="24" r="11" class="red"/><circle cx="68" cy="24" r="11" class="dark"/><circle cx="112" cy="24" r="11" class="teal"/>
+<circle cx="24" cy="68" r="11" class="dark"/><circle cx="68" cy="68" r="11" class="accent"/><circle cx="112" cy="68" r="11" class="red"/>
+<circle cx="24" cy="112" r="11" class="teal"/><circle cx="68" cy="112" r="11" class="red"/><circle cx="112" cy="112" r="11" class="dark"/>
+</g>
+</g>
+<text x="80" y="236" text-anchor="middle" class="tiny">extended structure</text>
+</g>
+
+<rect x="282" y="505" width="636" height="64" rx="32" fill="#2b3035"/>
+<text x="600" y="546" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" fill="#ffffff">design targets and synthesis routes must be considered together</text>
+</svg>
